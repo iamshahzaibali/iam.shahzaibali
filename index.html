@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 6 - CWH</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: calibri;
+        }
+
+        nav{
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav ul{
+            display: flex;
+            margin-left: 300px;
+        }
+
+        nav ul li{
+            list-style: none;
+            margin: 20px;
+            font-size: 1.2rem;
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            color: black;
+        }
+
+        nav .img1{
+            width: 200px;
+        }
+
+         nav .img2{
+            margin-left: 50px;
+            width:30px;
+            height: 35px;
+         }
+
+         header .container{
+            margin-top: 70px;
+         }
+
+         header .container .cont1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         }
+
+         header .container h2{
+            font-size: 3rem;
+            font-weight: 500;
+         }
+
+         header .container h2 span{
+            font-weight: 900;
+         }
+
+         header .container .cont2{
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.75rem;
+         }
+
+         header .container .cont2 p{
+            width: 50vw;
+            text-align: center;
+         }
+
+         header .container .cont3{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         }
+
+         header .container .cont3 a{
+            text-decoration: none;
+            color: white;
+            background: #00b6d1;
+            padding: 14px 20px;
+            border: 2px solid #00b6d1;
+            font-weight: 900;
+            border-radius: 8px;
+            margin-top: 35px;
+            transition: 0.5s;
+         }
+
+         header .container .cont3 a:hover{
+            background: #0ca3bb;
+         }
+
+         main .container1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: 60px;
+            width: 100vw;
+         }
+
+         main .container1 .cont1{
+            display: flex; 
+            justify-content: center;
+            align-items: center;
+            width: 55vw;
+         }
+
+         main .container1 .cont1 h2{
+            font-size: 1.75rem;
+            font-weight: 400;
+            position: relative;
+            right: 30px;
+         }
+
+         main .container1 .cont1 p{
+            font-size: 1rem;
+            font-weight: 300;
+            position: relative;
+            right: 25px;
+         }
+
+         main .container2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            position: relative;
+         }
+
+         main .container2 .cont1{
+            margin-top: 150px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+            width: 1000px;
+         }
+
+         main .container2 .cont1 .box1{
+            padding: 10px;
+            display: grid;
+            grid-template-rows: 35px 25px 45px ;
+            text-align: center;
+            background-color: azure;
+            height: 180px;
+         }
+
+         main .container2 .cont1 .box1 h3{
+            margin-top: 10px;
+            font-size: 1.5rem;
+            margin-bottom: 5px;
+         }
+
+         main .container2 .cont1 .box1 h4{
+            margin-top: 10px;
+            font-weight: 100;
+         }
+
+         main .container2 .cont1 .box1 a{
+            margin: auto;
+            text-align: center;
+            text-decoration: none;
+            background: rgb(0, 165, 39);
+            color: white;
+            padding: 10px 20px;
+            width: 150px;
+            border-radius: 10px;
+            font-weight: 600;
+            margin-top: 20px;
+         }
+
+         main .container2 .cont1 .box .box1 .p1{
+            font-size: 0.7rem;
+            margin-top: 30px;
+            margin-bottom:3px;
+         }
+
+         main .container2 .cont1 .box .box1 .p2{
+            font-size: 0.5rem;
+         }
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="logo.png" alt="Ultra Edit" class="img1">
+        <ul>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">For business</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Our Company</a></li>
+        </ul>
+
+        <a href="#"><img src="logo2.png" alt="Error" class="img2"></a>
+    </nav>
+    <header>
+        <div class="container">
+            <div class="cont1">
+                <h2>Download <span>UltraEdit</span> for Windows</h2>
+            </div>
+            <div class="cont2">
+                <p>Download and try UltraEdit before you buy it! This download includes the full Windows version of the text editor.</p>
+            </div>
+            <div class="cont3">
+                <a href="#">DOWNLOAD MAC OR LINUX VERSION</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container1">
+            <div class="cont1">
+                <img src="logo.png" alt="Sorry" style="width: 200px; margin-right: 50px;">
+                <h2>Download UltraEdit</h2>
+                <p>v2024.1(released 2024-08-27) | Hotfix information (2024-08-18)</p>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="cont1">
+                <div class="box">
+                    <div class="box1">
+                        <h3>English</h3>
+                        <h4>English</h4>
+                        <a href="#">Download 64-bit</a>
+                        <p class="p1">SHA256</p>
+                        <p class="p2">02A753B54430A2E29ECADAEAEBCCC4EAF7B9629FF37E98CEB61C84527CF6A779</p>
+                    </div>        
+                </div>
+                <div class="box">
+                    <div class="box1">
+                        <h3>Italic</h3>
+                        <h4>Italic</h4>
+                        <a href="#">Download 64-bit</a>
+                        <p class="p1">SHA256</p>
+                        <p class="p2">02A753B54430A2E29ECADAEAEBCCC4EAF7B9629FF37E98CEB61C84527CF6A779</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box1">
+                        <h3>German</h3>
+                        <h4>German</h4>
+                        <a href="#">Download 64-bit</a>
+                        <p class="p1">SHA256</p>
+                        <p class="p2">02A753B54430A2E29ECADAEAEBCCC4EAF7B9629FF37E98CEB61C84527CF6A779</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container2">
+            <div class="cont1" style="margin-top: 5px;">
+                <div class="box">
+                    <div class="box1">
+                        <h3>Hindi</h3>
+                        <h4>Hindi</h4>
+                        <a href="#">Download 64-bit</a>
+                        <p class="p1">SHA256</p>
+                        <p class="p2">02A753B54430A2E29ECADAEAEBCCC4EAF7B9629FF37E98CEB61C84527CF6A779</p>
+                    </div>        
+                </div>
+                <div class="box">
+                    <div class="box1">
+                        <h3>Korean</h3>
+                        <h4>Korean</h4>
+                        <a href="#">Download 64-bit</a>
+                        <p class="p1">SHA256</p>
+                        <p class="p2">02A753B54430A2E29ECADAEAEBCCC4EAF7B9629FF37E98CEB61C84527CF6A779</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box1">
+                        <h3>Japanese</h3>
+                        <h4>Japanese</h4>
+                        <a href="#">Download 64-bit</a>
+                        <p class="p1">SHA256</p>
+                        <p class="p2">02A753B54430A2E29ECADAEAEBCCC4EAF7B9629FF37E98CEB61C84527CF6A779</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container2">
+            <div class="cont1" style="margin-top: 5px;">
+                <div class="box">
+                    <div class="box1">
+                        <h3>Urdu</h3>
+                        <h4>Urdu</h4>
+                        <a href="#">Download 64-bit</a>
+                        <p class="p1">SHA256</p>
+                        <p class="p2">02A753B54430A2E29ECADAEAEBCCC4EAF7B9629FF37E98CEB61C84527CF6A779</p>
+                    </div>        
+                </div>
+                <div class="box">
+                    <div class="box1">
+                        <h3>Chinese</h3>
+                        <h4>Chinese</h4>
+                        <a href="#">Download 64-bit</a>
+                        <p class="p1">SHA256</p>
+                        <p class="p2">02A753B54430A2E29ECADAEAEBCCC4EAF7B9629FF37E98CEB61C84527CF6A779</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box1">
+                        <h3>Arabic</h3>
+                        <h4>Arabic</h4>
+                        <a href="#">Download 64-bit</a>
+                        <p class="p1">SHA256</p>
+                        <p class="p2">02A753B54430A2E29ECADAEAEBCCC4EAF7B9629FF37E98CEB61C84527CF6A779</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
